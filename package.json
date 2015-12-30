@@ -1,0 +1,25 @@
+{
+  "name": "viaplay-trailer-api",
+  "version": "1.0.0",
+  "description": "Enhances Viaplay Content API with Trailer Addict trailers",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "good": "^6.2.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.0",
+    "request": "^2.65.0",
+    "xml2js": "^0.4.13"
+  },
+  "devDependencies": {
+    "code": "^1.5.0",
+    "joi": "^6.9.1",
+    "lab": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "lab"
+  },
+  "author": "Eugene Kovalov",
+  "license": ""
+}
